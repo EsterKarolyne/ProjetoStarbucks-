@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0; /* tira ou aumenta os espaçamentos laterais, texto, horizontais etc */
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap; /*define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas.*/
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden; /* nao vai existir scrolbar */
+    overflow-x: hidden;
+}
+
+.header{
+    padding: 20px 0; /*para nao ficar grudad0*/
+    height: 200px 0;
+}
+
+.logo{
+    width: 50%; /*nao entendi*/
+}
+
+.menu{
+
+    padding-top: 30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+section .sobre{
+    right: calc(100% - 200px);
+    position: relative;
+
+}
+
+.extras{
+    position:fixed; /* levou pro canto*/
+    bottom: -500px;
+    right: -400px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+
+}
+
+.img-1{
+    height:50%; 
+}
+
+.social-media{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 50px;
+    top:80px;
+    margin-left: 530px;
+}
+
+.social-media img{
+    display: block;
+    margin:20px;
+    width: 20px;
+}
+
+
+.texto-sobre h1{
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: normal;
+
+
+}
+
+.texto-sobre p{
+    margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: normal;
+    max-width: 600px;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+
+.thumb1{
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.imgs{
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 40px;
+}
